@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.Encabezado {
+  position: fixed;
+  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+  z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra para destacar el encabezado */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+  background-color: black;
+}
+
+footer p {
+  margin: 0;
+}
