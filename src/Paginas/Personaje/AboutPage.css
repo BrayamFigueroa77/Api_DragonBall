@@ -15,20 +15,21 @@
   margin-bottom: 20px;
   font-size: 3rem;
   font-weight: bold;
-  color: #FFD700 ;
+  color: #ffd700;
   text-align: center;
   padding: 10px;
-  background: linear-gradient(90deg, #f9d423, #ff4e50 );
+  background: linear-gradient(90deg, #f9d423, #ff4e50);
   border-radius: 8px;
   color: #000000;
   transition: background 5s ease, transform 0.3s ease, text-shadow 0.3s ease;
   cursor: pointer;
   text-transform: uppercase;
+  margin-inline: auto;
 }
 
-#Titulo_personaje:hover{
-    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6); /* Sombra más intensa */
-    transform: scale(1.05); /* Ligero aumento de tamaño */
+#Titulo_personaje:hover {
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6); /* Sombra más intensa */
+  transform: scale(1.05); /* Ligero aumento de tamaño */
 }
 
 /* Detalles del personaje */
